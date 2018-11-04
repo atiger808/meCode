@@ -4,6 +4,11 @@
 # @Site     : 
 # @File     : dagong.py    
 # @Software : PyCharm
+'''
+	target:爬取 [我的打工网] 招聘数据
+		保存为csv文件
+	url: http://www.wodedagong.com
+'''
 import requests
 from bs4 import BeautifulSoup as bs
 import pandas as pd
